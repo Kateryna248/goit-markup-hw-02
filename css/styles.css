@@ -34,10 +34,14 @@ main {
   background-color: var(--additional-background-color);
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: var(--logo-color);
@@ -48,8 +52,6 @@ main {
 }
 
 .header-list-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -65,9 +67,11 @@ main {
   color: var(--accent-color);
 }
 
+.header-list .header-list-link.current {
+  color: var(--accent-color);
+}
+
 .contacts-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -84,8 +88,6 @@ main {
 }
 
 .hero-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,9 +95,7 @@ main {
 }
 
 .hero-link {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   color: #fff;
@@ -103,36 +103,35 @@ main {
 }
 
 .features-item-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
+.features-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--title-text-color);
+}
+
 .issues-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-text-color);
 }
 
 .team-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-text-color);
 }
 
 .team-item-title {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
@@ -140,18 +139,14 @@ main {
 }
 
 .team-item-text {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
 }
 
 .footer-addres-map {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
@@ -159,9 +154,7 @@ main {
 
 .footer-email,
 .footer-tel {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--mailtel-logo-footer);
@@ -169,8 +162,7 @@ main {
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
@@ -178,8 +170,7 @@ main {
 }
 
 .portfolio-button {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -198,18 +189,14 @@ main {
 }
 
 .portfolio-item-header {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--title-text-color);
 }
 
 .portfolio-item-text {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
