@@ -92,6 +92,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   color: #ffffff;
+  text-align: center;
 }
 
 .hero-link {
@@ -100,6 +101,10 @@ body {
   line-height: 1.875;
   color: #fff;
   background-color: var(--accent-color);
+}
+
+.hero-link-block {
+  text-align: center;
 }
 
 .features-item-title {
@@ -122,6 +127,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 .team-title {
@@ -129,6 +135,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-text-color);
+  text-align: center;
 }
 
 .team-item-title {
@@ -136,6 +143,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--title-text-color);
+  /* text-align: center; */
 }
 
 .team-item-text {
@@ -143,6 +151,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
+  /* text-align: center; */
 }
 
 .footer-addres-map {
