@@ -143,6 +143,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--title-text-color);
+
   /* text-align: center; */
 }
 
@@ -151,6 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
+
   /* text-align: center; */
 }
 
